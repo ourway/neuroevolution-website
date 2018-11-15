@@ -9,16 +9,17 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+              I am <a href="https://ashouri.org" target="_new">Farsheed Ashouri</a> and
           </p>
-          <a
+          <h2
             className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
           >
-            Learn React
-          </a>
+            Welcome to NeuroEvolution
+          </h2>
+          <p className="site-description"> 
+              This website includes research and software developed during my studies on Machine Learning, Artificial intellegence and Image/Voice Recognition software development.
+          
+          </p>
         </header>
       </div>
     );
